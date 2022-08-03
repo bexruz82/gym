@@ -1,0 +1,87 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgb(237, 83, 22), rgb(220, 218, 223));
+}
+
+.intro {
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+}
+
+.intro video {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+
+.card {
+  z-index: 2;
+  width: 980px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+.card .cards {
+  width: 265px;
+  background-image: linear-gradient(rgb(71, 71, 84), rgb(220, 218, 223));
+  padding: 15px;
+  margin-left: 20px;
+  border-radius: 20px;
+  border: solid 1px black;
+  box-shadow: 1px 20px 30px black;
+}
+.card .cards .name {
+  font-size: 20px;
+  color: rgb(73, 73, 73);
+}
+.card .cards .read {
+  border: solid black 1px;
+  border-radius: 8px;
+  background-color: rgb(245, 192, 123);
+  font-family: cursive;
+  width: 100px;
+  align-items: center;
+  color: aliceblue;
+  text-decoration: none;
+  box-shadow: 1px 2px 9px rgb(47, 47, 47);
+  padding: 7px;
+  margin: 10px auto;
+}
+.card .cards .text {
+  font-family: cursive;
+  color: rgb(141, 200, 251);
+  text-shadow: 2px 2px 2px black;
+}
+.card .cards .bodyimg {
+  box-shadow: 20px;
+}
+
+main {
+  z-index: 4;
+}
+
+.block {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  background-image: linear-gradient(rgb(237, 83, 22), rgb(220, 218, 223));
+  margin: 20px auto;
+  justify-content: center;
+  border: solid black 1px;
+  border-radius: 20px;
+  box-shadow: 1px 20px 30px rgb(73, 73, 73);
+}
+.block .part {
+  font-size: 15;
+  font-family: cursive;
+  color: rgb(149, 64, 64);
+  margin-left: 20px;
+}/*# sourceMappingURL=gym.css.map */
